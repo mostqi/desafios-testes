@@ -87,3 +87,7 @@ Em ordem de importância:
     formatada onde a solução deverá ser implementada e testada.
 
 Os prazos podem ser estendidos a pedido do desenvolvedor.
+
+## mostQi
+
+Acesse nosso [linkedin](https://www.linkedin.com/company/mobile-solution-technology/posts/?feedView=all) para mais informações sobre vagas e novidades.
