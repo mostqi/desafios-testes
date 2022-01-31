@@ -1,5 +1,6 @@
-## Desafio de Testes
-### Introdução
+# Desafio de Testes
+
+## Introdução
 Desenvolvimento de software, não importa quão pequeno seja, nunca é o
 trabalho de uma pessoa só. Códigos são incorporados por módulos
 diferentes, são reescritos para serem mantidos a par dos novos recursos
@@ -18,7 +19,7 @@ atualmente em execução, como identificar rapidamente quaisquer
 alterações que quebrem o funcionamento de um código previamente em
 funcionamento.
 
-### Desafio
+## Desafio
 
 Visando identificar erros, *bugs* e casos de borda, o foco deste desafio
 será criar uma bateria de testes que corretamente identifique *Code
@@ -65,7 +66,7 @@ Importantes**:
 -   É interessante que o desenvolvedor descreva o processo criativo que
     o levou até os casos de borda encontrados.
 
-### O que será avaliado
+## O que será avaliado
 
 Em ordem de importância:
 
@@ -77,7 +78,7 @@ Em ordem de importância:
 -   Capacidade de pesquisar e identificar soluções para os problemas que
     poderão aparecer;
 
-### O que será disponibilizado
+## O que será disponibilizado
 
 -   O código das classes dos testes inciais, *MockPerson* e *MockDate*;
 -   Código de exemplo para comunicação com a aplicação *Flask*, por onde
@@ -88,6 +89,6 @@ Em ordem de importância:
 
 Os prazos podem ser estendidos a pedido do desenvolvedor.
 
-## mostQi
+## mostQI
 
 Acesse nosso [linkedin](https://www.linkedin.com/company/mobile-solution-technology/posts/?feedView=all) para mais informações sobre vagas e novidades.
