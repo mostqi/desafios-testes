@@ -80,8 +80,8 @@ Em ordem de importância:
 
 ## O que será disponibilizado
 
--   O código das classes dos testes inciais, *MockPerson* e *MockDate*;
--   Código de exemplo para comunicação com a aplicação *Flask*, por onde
+-   [Código das classes](../files/Desafio-Testes.ipynb) dos testes inciais, *MockPerson* e *MockDate*;
+-   [Código de exemplo](../files/Desafio-Teste.postman_collection.json) para comunicação com a aplicação *Flask*, por onde
     ocorrerá o acesso às funções a serem testadas, assim como um token
     de acesso à aplicação;
 -   Acesso *ssh* com permissão de administrador para uma máquina recém
@@ -92,4 +92,3 @@ Em ordem de importância:
 - Para que suas requisições sejam aceitas pela aplicação, será necessário 
   que você utilize o seu token, favor solicitar este token pelo e-mail 
   cv@most.com.br.
-
