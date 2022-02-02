@@ -1,6 +1,6 @@
 # Desafio de Testes
 
-Seguem abaixo os itens do Desafio mostQi para os candidatos à vaga de Testes
+Seguem abaixo os itens do desafio para os candidatos à vaga de Testes
 
 1. [Desafio 01](./desafio-01/README.md)
 
