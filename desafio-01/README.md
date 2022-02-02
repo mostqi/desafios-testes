@@ -87,4 +87,9 @@ Em ordem de importância:
 -   Acesso *ssh* com permissão de administrador para uma máquina recém
     formatada onde a solução deverá ser implementada e testada.
 
-Os prazos podem ser estendidos a pedido do desenvolvedor.
+## Notas
+
+- Para que suas requisições sejam aceitas pela aplicação, será necessário 
+  que você utilize o seu token, favor solicitar este token pelo e-mail 
+  cv@most.com.br.
+
