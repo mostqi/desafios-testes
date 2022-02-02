@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "fd6f29fe-c3f4-4466-8ef5-9df7e84bb938",
+		"name": "Desafio-Teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "number-in-range-test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"num\": [ 1, 2, 3, 4, 5 ],\n    \"start\": 3,\n    \"stop\": 5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://44.199.43.18:1337/test/number-in-range",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"test",
+						"number-in-range"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "number-in-range-doc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://44.199.43.18:1337/doc/number-in-range",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"doc",
+						"number-in-range"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "segment-intersection-test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"seg1\": [[ 0, 1 ], [ 0, 3 ]],\n    \"seg2\": [\n        [[ 0, 0 ], [ 0, 1 ]],\n        [[ 2, 2 ], [ 2, -4 ]]\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://44.199.43.18:1337/test/segment-intersection",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"test",
+						"segment-intersection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "segmen-intersection-doc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://44.199.43.18:1337/doc/segment-intersection",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"doc",
+						"segment-intersection"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "point-angle-rotate-test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pt\": [[ -3, 4 ], [ -1, 4 ], [ -1, 3 ], [ -2, 2 ], [ -3, 2 ], [ -4, 3 ]],\n    \"ang\": -3.1415926\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://44.199.43.18:1337/test/point-angle-rotate",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"test",
+						"point-angle-rotate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "point-angle-rotate-doc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://44.199.43.18:1337/doc/point-angle-rotate",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"doc",
+						"point-angle-rotate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "harmonic-mean",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"arr\": [ -3, 4, -1, 4, -1, 3, -2, 2, -3, 2, -4, 3 ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://44.199.43.18:1337/test/harmonic-mean",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"test",
+						"harmonic-mean"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "harmonic-mean-doc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Param-Auth",
+						"value": "<TOKEN>",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://44.199.43.18:1337/doc/harmonic-mean",
+					"protocol": "http",
+					"host": [
+						"44",
+						"199",
+						"43",
+						"18"
+					],
+					"port": "1337",
+					"path": [
+						"doc",
+						"harmonic-mean"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
